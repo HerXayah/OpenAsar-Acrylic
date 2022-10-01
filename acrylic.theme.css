@@ -7,13 +7,13 @@ This is just to make Acrylic for OpenAsar look better
 /* UI */
 
 @media (prefers-color-scheme: dark) {
-   .theme-dark.autocomplete-3NRXG8 {
+   .theme-dark .autocomplete-3NRXG8 {
       background-color: rgba(0, 0, 0, 0.733);
    }
 }
 
 @media (prefers-color-scheme: light) {
-   .theme-light.autocomplete-3NRXG8 {
+   .theme-light .autocomplete-3NRXG8 {
       background-color: rgba(182, 182, 182, 0.733);
    }
 }
