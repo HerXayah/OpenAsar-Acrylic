@@ -10,6 +10,24 @@ This is just to make Acrylic for OpenAsar look better
    background-color: rgba(182, 182, 182, 0.733) !important;
 }
 
-.theme-dark .autocomplete-3NRXG8 {
-   background-color: rgba(0, 0, 0, 0.733) !important;
+.theme-dark .autocomplete-3NRXG8,
+.scrollableContainer-15eg7h,
+.layer-2aCOJ3,
+.userProfileInnerWithBanner-3CJ1Og,
+.userPopoutOverlayBackground-dKOOda {
+   background-color: rgba(25, 25, 25, 0.499) !important;
+}
+
+.sidebar-1tnWFu,
+.scroller-3X7KbA,
+.container-1NXEtd,
+.container-2o3qEW,
+.layer-2aCOJ3 {
+   background-color: transparent !important;
+}
+
+.content-1jQy2l::before,
+.guildSeparator-a4uisj,
+.container-1NXEtd::before {
+   display: none !important;
 }
