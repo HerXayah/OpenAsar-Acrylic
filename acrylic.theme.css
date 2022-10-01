@@ -4,15 +4,38 @@ Made by: Sarah | 202740603790819328
 This is just to make Acrylic for OpenAsar look better
 */
 
-:root {
+.theme-dark {
    --background-fourth: #2022258c;
-   --scrollbar-auto-track: #2022258c;
+   --background-modal: #202225c2;
+   --scrollbar-auto-track: var(--background-secondary);
+}
+
+.theme-light {
+   --background-fourth: #f2f3f5;
+   --background-modal: #f2f3f5;
+   --scrollbar-auto-track: var(--background-secondary);
+   --channels-default: #272727;
+   --channel-icon: #020202c2;
+   --text-muted: #151313;
+   --text-normal: #111111;
+   --SeIc-color-text-normal: #111111;
+   --background-fourth: #97999ca2;
+   --background-secondary: #a6a9adcc;
+}
+
+.theme-light text {
+   color: #202225c2 !important;
 }
 
 /* Fixes */
 
 .channelTextArea-1FufC0 {
    margin-top: 7.8px;
+}
+
+.fade-1R6FHN:hover::-webkit-scrollbar-thumb,
+.fade-1R6FHN:hover::-webkit-scrollbar-track {
+   visibility: hidden !important;
 }
 
 /* UI */
@@ -24,9 +47,7 @@ This is just to make Acrylic for OpenAsar look better
 .theme-dark .autocomplete-3NRXG8,
 .scrollableContainer-15eg7h,
 .layer-2aCOJ3,
-.userProfileInnerWithBanner-3CJ1Og,
 .userPopoutOverlayBackground-dKOOda,
-.menu-1QACrS,
 .navButtonActive-1EqC5l,
 .inset-SbsSFp,
 .outer-2JOHae.interactive-2zD88a:hover,
@@ -34,7 +55,8 @@ This is just to make Acrylic for OpenAsar look better
    background-color: rgba(25, 25, 25, 0.499) !important;
 }
 
-.theme-dark .theme-light .elevationBorderHigh-3drnJX {
+.theme-dark .theme-light .elevationBorderHigh-3drnJX,
+.header-1w9Q93 {
    -webkit-box-shadow: none !important;
    box-shadow: none !important;
 }
@@ -43,10 +65,17 @@ This is just to make Acrylic for OpenAsar look better
    display: none !important;
 }
 
-.theme-dark .theme.light .root-g14mjS,
+.theme-dark .theme-light .root-g14mjS,
 .container-2McqkF,
-.userProfileInnerNonPremium-1XjSjn {
+.root-g14mjS,
+.userProfileInnerWithBanner-3CJ1Og,
+.messagesPopoutWrap-3zryHW,
+.menu-1QACrS {
    background: var(--background-fourth) !important;
+}
+
+.theme-dark .theme-light .userProfileInnerNonPremium-1XjSjn {
+   background: var(--background-modal) !important;
 }
 
 .theme-dark .theme.light .container-2McqkF {
@@ -54,7 +83,8 @@ This is just to make Acrylic for OpenAsar look better
 }
 
 .contentRegion-3HkfJJ,
-.jumpToPresentBar-1cEnH0 {
+.jumpToPresentBar-1cEnH0,
+.embedFull-1HGV2S {
    background: var(--background-secondary) !important;
 }
 
@@ -74,12 +104,16 @@ This is just to make Acrylic for OpenAsar look better
 .footer-31IekZ,
 .searchHeader-1r_ZSh,
 .focused-2FU0YH,
-.folder-241Joy {
+.folder-241Joy,
+.header-1w9Q93,
+.footer-5ji8u1,
+.header-3_zmOb {
    background-color: transparent !important;
 }
 
 .theme-dark .tooltipPrimary-3qLMbS,
-.theme-light .tooltipPrimary-3qLMbS {
+.theme-light .tooltipPrimary-3qLMbS,
+.container-18GwIk {
    background: var(--background-fourth) !important;
 }
 
