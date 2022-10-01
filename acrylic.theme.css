@@ -15,15 +15,54 @@ This is just to make Acrylic for OpenAsar look better
 .layer-2aCOJ3,
 .userProfileInnerWithBanner-3CJ1Og,
 .userPopoutOverlayBackground-dKOOda,
-.menu-1QACrS {
+.menu-1QACrS,
+.navButtonActive-1EqC5l,
+.inset-SbsSFp,
+.outer-2JOHae.interactive-2zD88a:hover,
+.outer-2JOHae.active-1W_Gl9 {
    background-color: rgba(25, 25, 25, 0.499) !important;
+}
+
+.theme-dark .theme-light .elevationBorderHigh-3drnJX {
+   -webkit-box-shadow: none !important;
+   box-shadow: none !important;
+}
+
+.option-ayUoaq:after {
+   display: none !important;
+}
+
+.theme-dark .theme.light .root-g14mjS,
+.container-2McqkF,
+.userProfileInnerNonPremium-1XjSjn {
+   background: var(--background-tertiary) !important;
+}
+
+.theme-dark .theme.light .container-2McqkF {
+   background: var(--background-secondary) !important;
+}
+
+.contentRegion-3HkfJJ,
+.jumpToPresentBar-1cEnH0 {
+   background: var(--background-secondary) !important;
 }
 
 .sidebar-1tnWFu,
 .scroller-3X7KbA,
 .container-1NXEtd,
 .container-2o3qEW,
-.layer-2aCOJ3 {
+.layer-2aCOJ3,
+.privateChannels-oVe7HL,
+.nowPlayingColumn-1eCBCN,
+.sidebar-1tnWFu,
+.wrapper-1_HaEi,
+.scroller-WSmht3,
+.wrapper-22rqw6,
+.wrapper-1NNaWG,
+.lookFilled-1GseHa.select-1Ia3hD,
+.footer-31IekZ,
+.searchHeader-1r_ZSh,
+.focused-2FU0YH {
    background-color: transparent !important;
 }
 
@@ -31,4 +70,10 @@ This is just to make Acrylic for OpenAsar look better
 .guildSeparator-a4uisj,
 .container-1NXEtd::before {
    display: none !important;
+}
+
+/* Extra */
+
+.root-g14mjS {
+   border-radius: 15px;
 }
