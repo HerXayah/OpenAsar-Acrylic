@@ -4,6 +4,17 @@ Made by: Sarah | 202740603790819328
 This is just to make Acrylic for OpenAsar look better
 */
 
+:root {
+   --background-fourth: #2022258c;
+   --scrollbar-auto-track: #2022258c;
+}
+
+/* Fixes */
+
+.channelTextArea-1FufC0 {
+   margin-top: 7.8px;
+}
+
 /* UI */
 
 .theme-light .autocomplete-3NRXG8 {
@@ -35,7 +46,7 @@ This is just to make Acrylic for OpenAsar look better
 .theme-dark .theme.light .root-g14mjS,
 .container-2McqkF,
 .userProfileInnerNonPremium-1XjSjn {
-   background: var(--background-tertiary) !important;
+   background: var(--background-fourth) !important;
 }
 
 .theme-dark .theme.light .container-2McqkF {
@@ -62,8 +73,14 @@ This is just to make Acrylic for OpenAsar look better
 .lookFilled-1GseHa.select-1Ia3hD,
 .footer-31IekZ,
 .searchHeader-1r_ZSh,
-.focused-2FU0YH {
+.focused-2FU0YH,
+.folder-241Joy {
    background-color: transparent !important;
+}
+
+.theme-dark .tooltipPrimary-3qLMbS,
+.theme-light .tooltipPrimary-3qLMbS {
+   background: var(--background-fourth) !important;
 }
 
 .content-1jQy2l::before,
