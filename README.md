@@ -11,7 +11,7 @@ Also feel free to make PRs for Whitemode.
 Add
 
 ```
-@import url('https://rawcdn.githack.com/PrincessAkira/OpenAsar-Acrylic/370340a1f8ade4644feac6f4e13e575f10b68c49/acrylic.theme.css?min=1');
+@import url('https://rawcdn.githack.com/PrincessAkira/OpenAsar-Acrylic/255b8ab0abb713f942244afafe49a0eaa48b1d4a/acrylic.theme.css?min=1');
 ```
 
 to OpenAsar CSS
