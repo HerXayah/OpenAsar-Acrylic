@@ -86,7 +86,11 @@ This is just to make Acrylic for OpenAsar look better
 }
 
 .theme-dark .theme-light .userPopoutInner-1hXSeY,
-.wrapper-2vIMkT {
+.wrapper-2vIMkT,
+.layer-86YKbF,
+.input-2g-os5,
+.authBox-1HR6Ha,
+.itemFilled-1cPbtg {
    background: var(--background-tertiary) !important;
 }
 
