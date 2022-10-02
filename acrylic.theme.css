@@ -37,6 +37,11 @@ This is just to make Acrylic for OpenAsar look better
    margin-top: 7.8px;
 }
 
+.lookFilled-1GseHa.select-1Ia3hD,
+.cardPrimaryOutline-1ofwVz {
+   border: none;
+}
+
 .closeButton-3CiW2j {
    margin-left: 0px;
    margin-right: 10px;
@@ -61,7 +66,8 @@ This is just to make Acrylic for OpenAsar look better
 }
 
 .theme-dark .theme-light .elevationBorderHigh-3drnJX,
-.header-1w9Q93 {
+.header-1w9Q93,
+.popout-1KHNAq {
    -webkit-box-shadow: none !important;
    box-shadow: none !important;
 }
@@ -89,8 +95,7 @@ This is just to make Acrylic for OpenAsar look better
 .wrapper-2vIMkT,
 .layer-86YKbF,
 .input-2g-os5,
-.authBox-1HR6Ha,
-.itemFilled-1cPbtg {
+.authBox-1HR6Ha {
    background: var(--background-tertiary) !important;
 }
 
@@ -139,7 +144,11 @@ This is just to make Acrylic for OpenAsar look better
 .root-8LYsGj,
 .tooltipPrimary-3qLMbS,
 .input-3r5zZY,
-.root-g14mjS {
+.root-g14mjS,
+.popout-1KHNAq,
+.lookFilled-1GseHa.select-1Ia3hD,
+.itemFilled-1cPbtg,
+.override-1sK4r0 {
    background-color: var(--background-modal) !important;
 }
 
