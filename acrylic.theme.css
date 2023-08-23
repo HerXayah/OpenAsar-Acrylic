@@ -8,10 +8,10 @@ This is just to make Acrylic for OpenAsar look better
    --background-fourth: #2022258c;
    --background-modal: #202225c2;
    --scrollbar-auto-track: var(--background-secondary);
-   --background-primary: transparent;
-    --background-secondary: transparent;
-    --background-secondary-alt: transparent;
-    --background-tertiary: transparent;
+   --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-secondary-alt: transparent !important;
+    --background-tertiary: transparent !important; 
 }
 
 .theme-light {
