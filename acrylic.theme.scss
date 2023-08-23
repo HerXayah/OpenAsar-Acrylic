@@ -12,6 +12,10 @@ This is just to make Acrylic for OpenAsar look better
     --background-secondary: #27282946 !important;
     --background-secondary-alt: transparent!important;
     --background-tertiary: transparent !important; 
+
+    if .sidebar-1tnWFu {
+      background-color: transparent !important;
+   }
 }
 
 .theme-light {
@@ -22,16 +26,16 @@ This is just to make Acrylic for OpenAsar look better
    --text-muted: #151313;
    --text-normal: #111111;
    --SeIc-color-text-normal: #111111;
-   --background-fourth: #97999ca2;
-   --background-secondary: #a6a9ad3d;
+   --background-fourth: #a6a9ad08 !important;
+   --background-secondary: #a6a9ad08 !important;
    --background-modal: #e2e3e596;
    --header-secondary: #151313;
    --channel-text-area-placeholder: #151313;
    --interactive-normal: #151313;
    --profile-body-background-color: #f2f3f579;
-   --background-secondary-alt: transparent!important;
-   --background-tertiary: transparent !important; 
-   --background-primary: transparent !important;
+   --background-secondary-alt: #a6a9ad08 !important;
+   --background-tertiary: #a6a9ad08 !important; 
+   --background-primary: #a6a9ad08 !important;
 }
 
 .theme-light text {
@@ -124,14 +128,12 @@ This is just to make Acrylic for OpenAsar look better
    background: var(--background-secondary) !important;
 }
 
-.sidebar-1tnWFu,
 .scroller-3X7KbA,
 .container-1NXEtd,
 .container-2o3qEW,
 .layer-2aCOJ3,
 .privateChannels-oVe7HL,
 .nowPlayingColumn-1eCBCN,
-.sidebar-1tnWFu,
 .wrapper-1_HaEi,
 .scroller-WSmht3,
 .wrapper-22rqw6,
