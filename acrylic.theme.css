@@ -8,10 +8,10 @@ For Vesktop or whatever the fuck you wanna use it for idc
    --background-fourth: #2022258c;
    --background-modal: #202225c2;
    --scrollbar-auto-track: var(--background-secondary);
-   --background-primary: transparent !important;
-    --background-secondary: #27282946 !important;
-    --background-secondary-alt: transparent!important;
-    --background-tertiary: transparent !important; 
+   --background-primary: #2728290a !important;
+   --background-secondary: #27282991 !important;
+   --background-secondary-alt: #2728290a !important;
+   --background-tertiary: #2728290a !important
 }
 
 .theme-light {
