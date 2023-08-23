@@ -9,8 +9,8 @@ This is just to make Acrylic for OpenAsar look better
    --background-modal: #202225c2;
    --scrollbar-auto-track: var(--background-secondary);
    --background-primary: transparent !important;
-    --background-secondary: transparent !important;
-    --background-secondary-alt: transparent !important;
+    --background-secondary: #27282946 !important;
+    --background-secondary-alt: transparent!important;
     --background-tertiary: transparent !important; 
 }
 
@@ -23,12 +23,15 @@ This is just to make Acrylic for OpenAsar look better
    --text-normal: #111111;
    --SeIc-color-text-normal: #111111;
    --background-fourth: #97999ca2;
-   --background-secondary: #a6a9adcc;
+   --background-secondary: #a6a9ad3d;
    --background-modal: #e2e3e596;
    --header-secondary: #151313;
    --channel-text-area-placeholder: #151313;
    --interactive-normal: #151313;
    --profile-body-background-color: #f2f3f579;
+   --background-secondary-alt: transparent!important;
+   --background-tertiary: transparent !important; 
+   --background-primary: transparent !important;
 }
 
 .theme-light text {
@@ -39,6 +42,10 @@ This is just to make Acrylic for OpenAsar look better
 
 .channelTextArea-1FufC0 {
    margin-top: 7.8px;
+}
+
+.vc-notification-root {
+   background: var(--background-secondary) !important;
 }
 
 .lookFilled-1GseHa.select-1Ia3hD,
